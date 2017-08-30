@@ -1,0 +1,33 @@
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git
+$ git init
+Initialized empty Git repository in C:/Private/Docs/Coursera/Git/.git/
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ git remote add origin https://github.com/pajogit/coursera-datascience-pc.git
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ git pull origin master
+From https://github.com/pajogit/coursera-datascience-pc
+ * branch            master     -> FETCH_HEAD
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ touch testfile.r
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ git add -A
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ git commit -m "test commit"
+[master 63b1015] test commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testfile.r
+
+mariopaic@GBLONWL5MCWL12 MINGW32 /c/Private/Docs/Coursera/Git (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/pajogit/coursera-datascience-pc.git
+   5480540..63b1015  master -> master
